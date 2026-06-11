@@ -6,9 +6,22 @@
     <title>Python + HTML</title>
 </head>
 <body>
-     <div class = "card"
-       <h1>
-        
-       </h1>
+     <div class = "card"> 
+       <h1>Integração Pythom com HTML </h1>
+       <h2>Bem Vindo!</h2>
+       <p><strong>Nome:</strong> {{ nome }}</p>
+       <p><strong>Curso:</strong> {{ curso }}</p>
+       </div><div><br>
+       <button onclick="mostrarMensagem()">
+        Clique aqui
+       </button>
+       <br></br>
+
+     </div>
+     <script>
+        function mostrarMensagem(){
+            alert("Parabéns! Seu site está funcionando.")
+        }
+     </script>
 </body>
 </html>
