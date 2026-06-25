@@ -20,5 +20,5 @@ def início():
         <p>Esse projeto foi criado usando Python e Flask.</p>
         <a href="> Volta para o inicio</a>
         """
-        if __name__=='__main__'
-         app.run(host='0.0.0.0', port=3000, debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3000, debug=True)
